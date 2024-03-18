@@ -1,48 +1,48 @@
 # vCampus
-本项目设计目的是打造校园智能管理系统，项目包含 service 端和 client 端。             
+The design purpose of this project is to build an intelligent campus management system. The project includes service side and client side.
 
 
 
 ## Env
-jdk 1.8    
+jdk 1.8
 
-GBK编码
+GBK encoding
 
 
 
 ## vCampusService
-service 端用于实现前端和后端请求和响应的交互。
+The service end is used to implement the interaction of front-end and back-end requests and responses.
 
-修改 src/utils/DBHelper 中 mysql 用户的信息，导入 data.sql
+Modify the mysql user information in `src/utils/DBHelper` and import `data.sql`
 
-运行 src/service
+Run `src/service`
 
-这里想用GPT功能可以填自己的密钥，见 src/utils/gpt_yun
+If you want to use the GPT function here, you can fill in your own key, see `src/utils/gpt_yun`
 
 
 
 ## vCampusClient
-client 端面向用户:管理员、学生、教师
+The client side is for users: administrators, students, teachers
 
-修改 src/utils/SocketHelper 中的服务器 ip，服务器利用cmd,ipconfig可以获得服务器 ip
+Modify the server ip in `src/utils/SocketHelper`. The server can obtain the server ip using cmd and `ipconfig`.
 
-运行 src/StartLogin 开始
+Run `src/StartLogin to start`
 
 
 
-## 功能
-权限自动分配：管理员、用户、老师
+## Function
+Permissions are automatically assigned: administrators, users, teachers
 
-用户管理、登录
+User management, login
 
-学籍管理模块
+Student status management module
 
-图书馆模块：图书管理、文献管理
+Library module: library management, document management
 
-选课模块：排课，选课，打分
+Course selection module: course scheduling, course selection, and grading
 
-商店模块：添加商品，购物
+Store module: add products, shop
 
-聊天模块：(类似qq) 多页面聊天，文本、图片、文件、语音通话、GPT      
+Chat module: (similar to qq) multi-page chat, text, pictures, files, voice calls, GPT      
 
 
