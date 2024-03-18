@@ -26,7 +26,7 @@ The client side is for users: administrators, students, teachers
 
 Modify the server ip in `src/utils/SocketHelper`. The server can obtain the server ip using cmd and `ipconfig`.
 
-Run `src/StartLogin to start`
+Run `src/StartLogin` to start
 
 
 
